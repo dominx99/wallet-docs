@@ -1,0 +1,8 @@
+:root {
+    --black: #222222;
+}
+
+.logo {
+    color: var(--black);
+    font-size: 1.5em;
+}
