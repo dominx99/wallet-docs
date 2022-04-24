@@ -89,7 +89,7 @@
       ============================ -->
       <div class="idocs-navigation bg-light">
         <ul class="nav flex-column ">
-          <li class="nav-item"><a class="nav-link active" href="#section_start">Założenia biznesowe</a>
+          <li class="nav-item"><a class="nav-link active" href="#section_start">Założenia</a>
             <ul class="nav flex-column">
               <li class="nav-item"><a class="nav-link" href="#section_user">Użytkownik</a></li>
               <li class="nav-item"><a class="nav-link" href="#section_wallet">Portfel</a></li>
@@ -97,7 +97,7 @@
               <li class="nav-item"><a class="nav-link" href="#section_transaction">Transakcja</a></li>
             </ul>
           </li>
-          <li class="nav-item"><a class="nav-link" href="#idocs_layout">Baza danych</a>
+          <li class="nav-item"><a class="nav-link" href="#section_database">Baza danych</a>
             <ul class="nav flex-column">
               <li class="nav-item"><a class="nav-link" href="#section_database_user">User</a></li>
               <li class="nav-item"><a class="nav-link" href="#section_database_wallet">Wallet</a></li>
@@ -133,7 +133,7 @@
           <hr class="divider">
 
           <section id="section_user">
-            <h2>Użytkownik</h2>
+            <h3>Użytkownik</h3>
             <p class="lead">Funkcjonalności:</p>
             <ol>
               <li>Możliwość założenia konta</li>
@@ -151,7 +151,7 @@
           <hr class="divider">
 
           <section id="section_wallet">
-            <h2>Portfel</h2>
+            <h3>Portfel</h3>
             <p class="lead">Funkcjonalności:</p>
             <ol>
               <li>Po wejściu do portfela użytkownikowi powinny wyświetlić się transakcje w nim dokonane</li>
@@ -161,7 +161,7 @@
           <hr class="divider">
 
           <section id="section_category">
-            <h2>Kategoria</h2>
+            <h3>Kategoria</h3>
             <p class="lead">Funkcjonalności:</p>
             <ol>
               <li>Możliwość dodania kategorii do transakcji</li>
@@ -170,8 +170,12 @@
 
           <hr class="divider">
 
+          <section id="section_database">
+            <h2>Baza danych</h2>
+          </section>
+
           <section id="section_transaction">
-            <h2>Transakcja</h2>
+            <h3>Transakcja</h3>
             <p class="lead">Funkcjonalności:</p>
             <ol>
               <li>Możliwość wyświetlenia listy transakcji <i class="fa fa-check"></i></li>
@@ -184,7 +188,7 @@
           <hr class="divider">
 
           <section id="section_database_user">
-            <h2>User</h2>
+            <h3>User</h3>
             <ul>
               <li>id <code>int</code></li>
               <li>name <code>varchar(255)</code></li>
@@ -196,7 +200,7 @@
           <hr class="divider">
 
           <section id="section_database_transaction">
-            <h2>Wallet</h2>
+            <h3>Wallet</h3>
             <ul>
               <li>id <code>int</code></li>
               <li>name <code>varchar(255)</code></li>
@@ -207,7 +211,7 @@
           <hr class="divider">
 
           <section id="section_database_category">
-            <h2>Category</h2>
+            <h3>Category</h3>
             <ul>
               <li>id <code>int</code></li>
               <li>name <code>varchar(255)</code></li>
@@ -218,7 +222,7 @@
           <hr class="divider">
 
           <section id="section_database_transaction">
-            <h2>Transaction</h2>
+            <h3>Transaction</h3>
             <ul>
               <li>id <code>int</code></li>
               <li>wallet_id <code>int</code></li>
