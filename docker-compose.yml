@@ -10,7 +10,7 @@ services:
       - "traefik.enable=true"
       - "traefik.docker.network=proxy"
       - "traefik.http.routers.walletdocs.rule=Host(`${DOMAIN}`)"
-      - "traefik.http.routers.wallet.tls.certresolver=lets_encrypt_resolver"
+      - "traefik.http.routers.walletdocs.tls.certresolver=lets_encrypt_resolver"
     networks:
       proxy:
         ipv4_address: 10.200.3.1
